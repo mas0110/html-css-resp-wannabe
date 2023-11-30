@@ -135,16 +135,21 @@ img {
 }
 
 @media screen and (max-width:480px){
+    .container {
+        width: 80%;
+    }    
     .row{
         flex-direction: column;
     }
 
     .lessons .col {
         width: 100%;
+        padding-block:30px;
     }
 
     .steps .col {
-        width: 100%
+        width: 100%;
+        padding-block:30px;
     }
 
     .why-us .col-left {
@@ -153,5 +158,26 @@ img {
     
     .why-us .col-right {
         width: 100%;
+    }
+    
+    .why-us{
+        background-color: #1a1a1a;
+    }
+
+    .why-us .container{
+        padding-block: 3rem;
+    }
+
+    .steps {
+        margin:0;
+        padding-block:3rem;
+    }
+
+    .why-us {
+        padding-bottom: 3rem;
+    }
+
+    .why-us {
+        margin-bottom:0;
     }
 }
